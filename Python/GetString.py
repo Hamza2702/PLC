@@ -8,7 +8,7 @@ def getString(s, op):
     else:
         return s
 
-def func2(getString, s, op):
-    str = getString(s, op)
+def func2(getStr, s, op):
+    str = getStr(s, op)
     return str
 print(func2(getString, "good morning", "up"))
